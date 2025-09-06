@@ -3,6 +3,7 @@
 1. Set Up Your project structure
 
 INSTALL
+    . npm i express
     . npm init -y (for package.json & package-lock.json )
     . npm i ejs (for npm)
     . npm i nodemon (auto server run)
@@ -31,7 +32,7 @@ mongoose.connection.on("connected", () => {
   console.log(`Connected to MongoDB ${mongoose.connection.name}.`);
 });
 
-const Fruit = require("./models/fruit.js");
+const Car = require("./model/Car.js");
 
 const morgan = require('morgan');
 app.use(morgan('dev'));
