@@ -7,7 +7,7 @@ INSTALL
     . npm i ejs (for npm)
     . npm i nodemon (auto server run)
     . npm i morgan (detect and show messages)
-    . npm i mongoose (for database)
+    . npm i mongoose dotenv (for database)
     . npm i method-override (to delete from database)
 FILES
     . .gitignore

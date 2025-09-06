@@ -10,11 +10,12 @@
   "license": "ISC",
   "keywords": [],
   "dependencies": {
+    "dotenv": "^17.2.2",
+    "ejs": "^3.1.10",
     "method-override": "^3.0.0",
     "mongoose": "^8.18.0",
     "morgan": "^1.10.1",
     "nodemon": "^3.1.10"
   },
-  "devDependencies": {},
   "description": ""
 }
