@@ -65,7 +65,7 @@ app.get("/cars/new", (req, res) => {
 // GET /cars/:id (this must be after new path)
 app.get("/cars/:carId", async (req, res) => {
   const foundCar = await Car.findById(req.params.carId);
-  res.render("cars/show.ejs", { Car: foundCar });
+  res.render("cars/show.ejs", { car: foundCar });
 });
 
 // POST /cars

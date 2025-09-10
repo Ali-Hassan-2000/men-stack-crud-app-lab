@@ -6,11 +6,11 @@
     <title><%= car.name %></title> <!-- Dynamic title based on car name -->
   </head>
   <body>
-    <h1><%= car.name %></h1>
-    <h1><%= car.carModel %></h1>
-    <h1><%= car.carColor %></h1>
-    <h1><%= car.carNumber %></h1>
-    <h1><%= car.Millage %></h1>
+    <h1>Car name:<%= car.name %></h1>
+    <h1>Car model:<%= car.carModel %></h1>
+    <h1>Car color:<%= car.carColor %></h1>
+    <h1>Car number:<%= car.carNumber %></h1>
+    <h1>Car millage:<%= car.Millage %></h1>
 
     <form action="/cars/<%=car._id%>?_method=DELETE" method="POST">
       <button type="submit">Delete <%= car.name %></button>
